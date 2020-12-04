@@ -2,11 +2,12 @@
 ```
 "12030 the connection with the server was terminated abnormally"
 ```
+#### Depending on the client library used, the error may read as "Socket Error # 10054 Connection reset by peer" for windows systems.
 
 ### This happens mostly in Tokyo VPS locations, much rare in Europe locations.
 ### The issue happens regularly from about 25.11.2020 
 
-### This test case running on vultr Tokyo VPS produced the following output (at the time of this writing, 04:12.2020)
+#### This test case running on vultr Tokyo VPS produced the following output (at the time of this writing, 04:12.2020)
 
 ```
 04:03:35: 
